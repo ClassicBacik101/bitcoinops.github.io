@@ -54,7 +54,7 @@ show_excerpts: true
 defaults:
   - scope:
       path: ""  ## all pages
-    values:
+    values: 
       image: https://bitcoinops.org/img/logos/optech-notext.png
       breadcrumbs: true
       localizable: true
@@ -86,5 +86,6 @@ languages:
     name: French
   - code: pt
     name: Portuguese
+  
 ## In-text aliases
 trb: "709,632" # TapRoot Block (activation)
